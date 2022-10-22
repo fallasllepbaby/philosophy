@@ -14,10 +14,47 @@ html{
     box-sizing: border-box;
 }
 
+/* background */
+/* .visuals {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index:-1;
+    margin-bottom: 0px;
+    
+}
+.far-background {
+    transform:translateZ(-15px) scale(1.79)translateY(82vh)translateX(0px);
+}
+.background {
+    transform: translateZ(-10px) scale(1.42)translateY(128vh)translateX(-4px);
+}
+.midground {
+    transform: translateZ(-6px) scale(1.14)translateY(177vh)translateX(0px);
+}
+.far-background,
+.background,
+.midground{
+    position:absolute;
+    object-fit:cover;
+    z-index: -1;
+} */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 body{
-    background: url(./images/backgroundlast.png);
-   
-    font-family: "Open Sans", sans-serif;
+    background:url(./images/Foreground.png),url(./images/Midground.png),url(./images/Background.png), url(./images/FarBackground.png),url(./images/Foreground.png); 
+    /* background-position: 40em; */
+    
+    /* transform: translateZ(-10px) scale(1.0)translateY(20vh)translateX(-4px); */
+    background-position: top bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+
+    font-family: 'Philosopher', sans-serif;
     font-size: 62.5%;
     letter-spacing: 1.5px;
     margin: 0;
@@ -34,6 +71,7 @@ margin-top: 0.5em;
 
 ul > li{
     list-style: none;
+    
 }
 
 
@@ -69,6 +107,7 @@ p{
 
 h3{
     font-weight:400;
+    
 }
 
 
@@ -165,7 +204,7 @@ p.stats:last-child{
 
 
 .deck{
-    background: linear-gradient(to bottom,#5cf,#28e);
+    background: linear-gradient(to bottom,#eeac7f,#b8805a);
     border-radius: 1.5em;
     display: flex;
     flex-wrap: wrap;
@@ -185,7 +224,7 @@ p.stats:last-child{
 }
 
 .card{
-    background: #fc4;
+    background: #dab184;
     border-radius: 0.5em;
     height: 7em;
     width: 7em;
@@ -205,7 +244,7 @@ img{
 .deck .card.flip{
     background: #fff;
     cursor:default;
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
     transition: transform 0.3s linear;
     pointer-events: none;
 
@@ -290,7 +329,9 @@ img{
     }
 
     .deck img{
-        width: 13em;
+        width: 15em;  
+        border-radius: 0.5em; 
+        /* HERE */
     }
 
     .reset-btn{
