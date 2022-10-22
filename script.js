@@ -11,12 +11,12 @@ const deckCards = [
   "img4.png",
   "img5.png",
   "img5.png",
-  "img6.jpg",
-  "img6.jpg",
-  "img7.jpg",
-  "img7.jpg",
-  "img8.jpg",
-  "img8.jpg",
+  "img6.png",
+  "img6.png",
+  "img7.png",
+  "img7.png",
+  "img8.png",
+  "img8.png",
 ];
 
 // Global Arrays
