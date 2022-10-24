@@ -14,42 +14,10 @@ html{
     box-sizing: border-box;
 }
 
-/* background */
-/* .visuals {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    transform-style: preserve-3d;
-    z-index:-1;
-    margin-bottom: 0px;
-    
-}
-.far-background {
-    transform:translateZ(-15px) scale(1.79)translateY(82vh)translateX(0px);
-}
-.background {
-    transform: translateZ(-10px) scale(1.42)translateY(128vh)translateX(-4px);
-}
-.midground {
-    transform: translateZ(-6px) scale(1.14)translateY(177vh)translateX(0px);
-}
-.far-background,
-.background,
-.midground{
-    position:absolute;
-    object-fit:cover;
-    z-index: -1;
-} */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 body{
-    background:url(./images/Foreground.png),url(./images/Midground.png),url(./images/Background.png), url(./images/FarBackground.png),url(./images/Foreground.png); 
-    /* background-position: 40em; */
-    
-    /* transform: translateZ(-10px) scale(1.0)translateY(20vh)translateX(-4px); */
+    background:url(./images/Foreground.png),url(./images/Midground.png); 
     background-position: top bottom;
-    background-size: auto;
     background-repeat: no-repeat;
     background-attachment:fixed;
     
